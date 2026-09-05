@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
+  background: #f6f3ff;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+input, select, textarea {
+  font: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1080px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  background: #6739b7;
+  color: #ffffff;
+  border: 1px solid #6739b7;
+  padding: 10px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 180ms ease;
+}
+
+.btn:hover {
+  filter: brightness(0.95);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #6739b7;
+  border: 1px solid #6739b7;
+}

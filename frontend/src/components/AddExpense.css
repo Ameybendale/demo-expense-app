@@ -1,0 +1,45 @@
+.addex {
+  background: #ffffff;
+  border: 1px solid #ece7ff;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(103, 57, 183, 0.08);
+  padding: 20px;
+  width: 100%;
+  max-width: 560px;
+}
+
+.addex h2 {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  color: #6b21a8;
+}
+
+.add-expense-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.add-expense-form input,
+.add-expense-form select,
+.add-expense-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #e0d8ff;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #111827;
+}
+
+.add-expense-form textarea {
+  grid-column: span 2;
+  min-height: 72px;
+  resize: vertical;
+}
+
+.add-expense-form button {
+  grid-column: span 2;
+  margin-top: 4px;
+}
+
+

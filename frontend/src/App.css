@@ -1,0 +1,43 @@
+* { overflow-x: hidden; }
+
+.app-shell {
+  padding-top: 24px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.topbar .title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+}
+
+.tab-btn {
+  background: #ede7ff;
+  border: 1px solid #e0d8ff;
+  color: #4b2ca0;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background: #6739b7;
+  color: #ffffff;
+  border-color: #6739b7;
+}
+
+.content-wrap {
+  display: flex;
+  justify-content: center;
+}

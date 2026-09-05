@@ -1,0 +1,16 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-buttons {
+  background: #ffffff;
+  border-bottom: 1px solid #ece7ff;
+}
+
+.content {
+  padding: 20px 0 40px 0;
+  display: flex;
+  justify-content: center;
+}

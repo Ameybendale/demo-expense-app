@@ -1,0 +1,78 @@
+vvvvvv.expense-vvvvvvvvlist {
+  width: 100%;
+  max-width: 900px;
+}
+
+.h2ex {
+  color: #6b21a8;
+  margin-bottom: 8px;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0 12px;
+}
+
+.filter-btn {
+  background: #ffffff;
+  color: #6739b7;
+  border: 1px solid #ece7ff;
+  padding: 6px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background: #6739b7;
+  color: #ffffff;
+  border-color: #6739b7;
+}
+
+.expense-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.expense-card {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 12px;
+  background: #ffffff;
+  border: 1px solid #ece7ff;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(103, 57, 183, 0.08);
+  padding: 14px 16px;
+}
+
+.expense-card p {
+  margin: 0;
+}
+
+.expense-card .meta {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.delete-btn {
+  background: #6739b7;
+  color: #ffffff;
+  border: 1px solid #6739b7;
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  filter: brightness(0.95);
+}
+
+.after-view {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+  color: #6b7280;
+}
